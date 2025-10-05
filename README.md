@@ -36,34 +36,34 @@ qa.py → Query analysis and response logic
 
 1️⃣ Clone the Repository
 git clone https://github.com/Akshay-painjane/Loan_assistant.git
-cd loan_assistant
+```cd loan_assistant```
 
 2️⃣ Create a Virtual Environment
-python -m venv venv
+```python -m venv venv```
 
 
 Activate the environment:
 
 Windows
 
-venv\Scripts\activate
+```venv\Scripts\activate```
 
 
 Mac/Linux
 
-source venv/bin/activate
+```source venv/bin/activate```
 
 3️⃣ Install Dependencies
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 4️⃣ Run the Application
 🖥️ CLI Mode
-python src/cli_main.py
+```python src/cli_main.py```
 
 🌐 API Mode 
 
 
-uvicorn src.api_main:app --host 0.0.0.0 --port 8000
+```uvicorn src.api_main:app --host 0.0.0.0 --port 8000```
 
 
 
