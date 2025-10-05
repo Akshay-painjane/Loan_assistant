@@ -60,7 +60,9 @@ pip install -r requirements.txt
 🖥️ CLI Mode
 python src/cli_main.py
 
-🌐 API Mode (if applicable)
+🌐 API Mode 
+
+
 uvicorn src.api_main:app --host 0.0.0.0 --port 8000
 
 
