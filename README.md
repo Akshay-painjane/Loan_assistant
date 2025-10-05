@@ -1,3 +1,5 @@
+
+
 Conversational Loan Assistant
 
 A Python + GenAI Prototype for Loan Query Automation
@@ -35,36 +37,44 @@ ingestion.py → Document ingestion & parsing (PDF/Excel)
 qa.py → Query analysis and response logic
 
 1️⃣ Clone the Repository
+```bash
 git clone https://github.com/Akshay-painjane/Loan_assistant.git
-```cd loan_assistant```
-
+```
+```bash
+cd loan_assistant
+```
 2️⃣ Create a Virtual Environment
-```python -m venv venv```
-
+```bash
+python -m venv venv
+```
 
 Activate the environment:
 
 Windows
-
-```venv\Scripts\activate```
-
+```bash
+venv\Scripts\activate
+```
 
 Mac/Linux
-
-```source venv/bin/activate```
+```bash
+source venv/bin/activate
+```
 
 3️⃣ Install Dependencies
-```pip install -r requirements.txt```
+```bash
+pip install -r requirements.txt
+```
 
 4️⃣ Run the Application
 🖥️ CLI Mode
-```python src/cli_main.py```
-
+```bash
+python src/cli_main.py
+```
 🌐 API Mode 
 
-
-```uvicorn src.api_main:app --host 0.0.0.0 --port 8000```
-
+```bash
+uvicorn src.api_main:app --host 0.0.0.0 --port 8000
+```
 
 
 Docker
