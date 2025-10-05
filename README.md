@@ -34,27 +34,35 @@ ingestion.py → Document ingestion & parsing (PDF/Excel)
 
 qa.py → Query analysis and response logic
 
-Setup Instructions
-1️. Clone the Repository
+1️⃣ Clone the Repository
 git clone https://github.com/Akshay-painjane/Loan_assistant.git
 cd loan_assistant
 
-2️ .Create a Virtual Environment
+2️⃣ Create a Virtual Environment
 python -m venv venv
 
-venv\Scripts\activate        # (Windows)
 
-source venv/bin/activate     # (Mac/Linux)
+Activate the environment:
 
-3️. Install Dependencies
+Windows
+
+venv\Scripts\activate
+
+
+Mac/Linux
+
+source venv/bin/activate
+
+3️⃣ Install Dependencies
 pip install -r requirements.txt
 
-4️. Run the Application
-CLI Mode
+4️⃣ Run the Application
+🖥️ CLI Mode
 python src/cli_main.py
 
-API Mode (if implemented)
-uvicorn api_main:app --host 0.0.0.0 --port 8000
+🌐 API Mode (if applicable)
+uvicorn src.api_main:app --host 0.0.0.0 --port 8000
+
 
 
 Docker
