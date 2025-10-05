@@ -37,12 +37,13 @@ qa.py → Query analysis and response logic
 Setup Instructions
 1️. Clone the Repository
 git clone https://github.com/Akshay-painjane/Loan_assistant.git
-cd conversational-loan-assistant
+cd loan_assistant
 
 2️ .Create a Virtual Environment
 python -m venv venv
+
 venv\Scripts\activate        # (Windows)
-# or
+
 source venv/bin/activate     # (Mac/Linux)
 
 3️. Install Dependencies
